@@ -8,7 +8,7 @@
         width: 100%;
         height: 100%;
         padding: 0% 8%;
-        font-family: $font-SVG-gotham-book;
+        font-family: $font-SVG-GothamLight;
         text-align: left;
         display: flex;
         justify-content: start;
@@ -17,9 +17,10 @@
         padding-bottom: 4%;
         .text-block {
             font-size: 13px;
+            color: #000;
+            line-height: 1.2;
             p {
                 margin-bottom: 5%;
-                line-height: 1.2;
             }
         }
 

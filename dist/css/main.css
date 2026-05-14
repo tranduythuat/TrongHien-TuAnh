@@ -693,7 +693,7 @@ section {
 .qrcode .content .title {
   font-size: 32px;
   font-family: "TPLeMajor", sans-serif;
-  line-height: 0.5;
+  line-height: 0.8;
   margin: 5% 0 10%;
 }
 .qrcode .content .title i {
@@ -947,7 +947,7 @@ section {
   width: 100%;
   height: 100%;
   padding: 0% 8%;
-  font-family: "SVG-gotham-book", sans-serif;
+  font-family: "SVG-GothamLight", sans-serif;
   text-align: left;
   display: flex;
   justify-content: start;
@@ -957,10 +957,11 @@ section {
 }
 .end .content .text-block {
   font-size: 13px;
+  color: #000;
+  line-height: 1.2;
 }
 .end .content .text-block p {
   margin-bottom: 5%;
-  line-height: 1.2;
 }
 @media (max-width: 500px) {
   .end .content .text-block {
