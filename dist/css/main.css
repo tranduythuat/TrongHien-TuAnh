@@ -859,6 +859,12 @@ section {
   padding: 2% 4%;
   border-radius: 15px;
 }
+.rsvp .content .rsvp-form .form-group textarea#guest-names {
+  aspect-ratio: 9/1;
+  resize: vertical;
+  padding: 2% 4%;
+  border-radius: 15px;
+}
 .rsvp .content .rsvp-form .form-group textarea::placeholder {
   white-space: pre-line;
   /* Cho phép hiển thị xuống dòng trong placeholder */
@@ -881,7 +887,9 @@ section {
   gap: 2%;
 }
 .rsvp .content .rsvp-form .form-group.guest-number .label {
-  display: block;
+  font-family: "SVG-gotham", sans-serif;
+  display: flex;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;

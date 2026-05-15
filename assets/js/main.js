@@ -94,7 +94,8 @@
       .from(".swatch2", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
       .from(".swatch3", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
       .from(".swatch4", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
-      .from(".swatch5", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4");
+      .from(".swatch5", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
+      .from(".swatch6", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4");
   }
 
   function initPage() {
