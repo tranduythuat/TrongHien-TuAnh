@@ -39,13 +39,26 @@
         }
 
         .qr-code {
+            background-color: #e7dcd3;
+            padding: 7%;
+            border-radius: 10px;
+            max-width: 320px;
+            width: 100%;
             &.first {
                 margin-bottom: 5%;
             }
+            .name {
+                font-size: 22px;
+                font-family: $font-DFVNCatchyMager;
+                margin-bottom: 3%;
+            }
             img {
-                max-width: 220px;
+                max-width: 200px;
                 width: 100%;
                 height: auto;
+                padding: 8%;
+                background-color: white;
+                border-radius: 15px;
             }
             .label1 {
                 font-size: 22px;
@@ -53,8 +66,9 @@
                 margin-top: 3%;
             }
             .label2 {
-                font-size: 18px;
+                font-size: 16px;
                 font-family: $font-SVG-GothamLight;
+                color: rgb(138, 128, 128);
             }
         }
 
@@ -69,7 +83,7 @@
             .title {
                 font-size: calc((32 / 500) * 100vw);
                 i {
-                    font-size: calc((16 / 500) * 100vw);
+                    font-size: calc((22 / 500) * 100vw);
                 }
             }
     
@@ -78,14 +92,20 @@
             }
     
             .qr-code {
+                max-width: calc((320 / 500) * 100vw);
+                border-radius: calc((10 / 500) * 100vw);
+                .name {
+                    font-size: calc((22 / 500) * 100vw);
+                }
                 img {
-                    max-width: calc((220 / 500) * 100vw);
+                    max-width: calc((200 / 500) * 100vw);
+                    border-radius: calc((15 / 500) * 100vw);
                 }
                 .label1 {
                     font-size: calc((22 / 500) * 100vw);
                 }
                 .label2 {
-                    font-size: calc((18 / 500) * 100vw);
+                    font-size: calc((16 / 500) * 100vw);
                 }
             }
     

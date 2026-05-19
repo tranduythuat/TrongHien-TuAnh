@@ -29,6 +29,9 @@
             text-transform: uppercase;
             color: #000;
             line-height: 1.4;
+            .bold {
+                font-family: $font-SVG-gotham-book;
+            }
             i {
                 font-size: 12px;
             }
@@ -110,10 +113,10 @@
                 align-items: end;
                 text-align: left;
                 p {
-                    margin-bottom: 22%;
-                    margin-left: 15%;
+                    margin-bottom: 25%;
+                    margin-left: 10%;
                     font-family: $font-DFVNCatchyMager;
-                    font-size: 54px;
+                    font-size: 42px;
                 }
             }
         }
@@ -158,7 +161,7 @@
                 }
                 .date {
                     p {
-                        font-size: calc((54 / 500) * 100vw);
+                        font-size: calc((42 / 500) * 100vw);
                     }
                 }
             }

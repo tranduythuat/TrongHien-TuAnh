@@ -358,6 +358,9 @@ section {
   color: #000;
   line-height: 1.4;
 }
+.invite .content .invite-text .bold {
+  font-family: "SVG-gotham-book", sans-serif;
+}
 .invite .content .invite-text i {
   font-size: 12px;
 }
@@ -436,10 +439,10 @@ section {
   text-align: left;
 }
 .invite .content .couple-art .date p {
-  margin-bottom: 22%;
-  margin-left: 15%;
+  margin-bottom: 25%;
+  margin-left: 10%;
   font-family: "DFVNCatchyMager", sans-serif;
-  font-size: 54px;
+  font-size: 42px;
 }
 @media (max-width: 500px) {
   .invite .content {
@@ -466,7 +469,7 @@ section {
     max-width: 32.8vw;
   }
   .invite .content .couple-art .date p {
-    font-size: 10.8vw;
+    font-size: 8.4vw;
   }
 }
 
@@ -494,19 +497,19 @@ section {
 }
 .timeline .items .item {
   margin-bottom: 4%;
-  max-width: 120px;
+  max-width: 164px;
   width: 100%;
 }
 .timeline .items .item .icon {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: start;
-  margin-bottom: 1%;
-  width: 62px;
-  aspect-ratio: 1;
+  margin-bottom: 10%;
+  width: 100%;
+  min-height: 65px;
 }
 .timeline .items .item .icon img {
-  max-width: 62px;
+  max-width: 68px;
   width: 100%;
   height: auto;
 }
@@ -591,7 +594,7 @@ section {
     max-width: 17.2vw;
   }
   .timeline .items .item {
-    max-width: 24vw;
+    max-width: 32.8vw;
   }
   .timeline .items .item .icon {
     width: 12.4vw;
@@ -710,13 +713,28 @@ section {
   font-family: "SVG-GothamLight", sans-serif;
   text-transform: unset;
 }
+.qrcode .content .qr-code {
+  background-color: #e7dcd3;
+  padding: 7%;
+  border-radius: 10px;
+  max-width: 320px;
+  width: 100%;
+}
 .qrcode .content .qr-code.first {
   margin-bottom: 5%;
 }
+.qrcode .content .qr-code .name {
+  font-size: 22px;
+  font-family: "DFVNCatchyMager", sans-serif;
+  margin-bottom: 3%;
+}
 .qrcode .content .qr-code img {
-  max-width: 220px;
+  max-width: 200px;
   width: 100%;
   height: auto;
+  padding: 8%;
+  background-color: white;
+  border-radius: 15px;
 }
 .qrcode .content .qr-code .label1 {
   font-size: 22px;
@@ -724,8 +742,9 @@ section {
   margin-top: 3%;
 }
 .qrcode .content .qr-code .label2 {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "SVG-GothamLight", sans-serif;
+  color: rgb(138, 128, 128);
 }
 @media (max-width: 500px) {
   .qrcode .content h2 {
@@ -738,19 +757,27 @@ section {
     font-size: 6.4vw;
   }
   .qrcode .content .title i {
-    font-size: 3.2vw;
+    font-size: 4.4vw;
   }
   .qrcode .content .subtitle {
     font-size: 2.4vw;
   }
+  .qrcode .content .qr-code {
+    max-width: 64vw;
+    border-radius: 2vw;
+  }
+  .qrcode .content .qr-code .name {
+    font-size: 4.4vw;
+  }
   .qrcode .content .qr-code img {
-    max-width: 44vw;
+    max-width: 40vw;
+    border-radius: 3vw;
   }
   .qrcode .content .qr-code .label1 {
     font-size: 4.4vw;
   }
   .qrcode .content .qr-code .label2 {
-    font-size: 3.6vw;
+    font-size: 3.2vw;
   }
 }
 

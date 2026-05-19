@@ -24,18 +24,18 @@
         gap: 10%;
         .item {
             margin-bottom: 4%;
-            max-width: 120px;
+            max-width: 164px;
             width: 100%;
             .icon {
                 display: flex;
-                align-items: center;
+                align-items: end;
                 justify-content: start;
-                margin-bottom: 1%;
-                width: 62px;
-                aspect-ratio: 1;
+                margin-bottom: 10%;
+                width: 100%;
+                min-height: 65px;
 
                 img {
-                    max-width: 62px;
+                    max-width: 68px;
                     width: 100%;
                     height: auto
                 }
@@ -144,7 +144,7 @@
 
         .items {
             .item {
-                max-width: calc((120 / 500) * 100vw);
+                max-width: calc((164 / 500) * 100vw);
                 .icon {
                     width: calc((62/ 500) * 100vw);
                     img {
